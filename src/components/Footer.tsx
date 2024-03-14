@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="footer p-10 bg-[#283345] text-base-content static bottom-0 min-h-[40%] px-[10%] pt-[15%]">
+    <footer className="footer p-10 bg-[#283345] text-base-content static bottom-0 min-h-[50%] px-[10%] pt-[15%]">
       <aside className="flex flex-col gap-4">
         <h2 className="font-semibold text-white">compleet labs</h2>
         <p className="leading-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis fugiat qui amet? <br />Tenetur delectus ad tempore veniam amet recusandae eius blanditiis, <br /> modi eveniet, autem, maxime placeat quos! Ratione, sapiente odio?</p>
