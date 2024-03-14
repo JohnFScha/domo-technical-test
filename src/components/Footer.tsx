@@ -10,7 +10,7 @@ export default function Footer() {
       <aside className="flex flex-col gap-4">
         <h2 className="font-semibold text-white">compleet labs</h2>
         <p className="leading-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis fugiat qui amet? <br />Tenetur delectus ad tempore veniam amet recusandae eius blanditiis, <br /> modi eveniet, autem, maxime placeat quos! Ratione, sapiente odio?</p>
-        <section className="flex gap-2">
+        <section className="flex text-lg gap-4">
           <FaTwitter />
           <TfiWorld />
           <IoLogoFacebook />
