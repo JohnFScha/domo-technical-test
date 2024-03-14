@@ -8,8 +8,8 @@ export default function Header() {
       <nav className="flex gap-10">
         <Link href={'#home'}>Home</Link>
         <Link href={'#services'}>Services</Link>
-        <Link href={'#technologies'}>Techonology</Link>
-        <Link href={'#case-studies'}>Case studies</Link>
+        <Link href={'#technologies'}>Technology</Link>
+        <Link href={'#clients'}>Case studies</Link>
         <Link href={'#about'}>About</Link>
         <Link href={'#hire'} className="flex items-center gap-2 font-semibold">
           <FaRegAddressCard />  

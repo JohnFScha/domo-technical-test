@@ -1,13 +1,20 @@
 import Home from "@/components/Home";
 import Services from "@/components/Services";
-import Techonology from "@/components/Techonology";
+import Technology from "@/components/Techonology";
+import Client from "@/components/Client";
+import {CaseOne, CaseTwo} from "@/components/CaseStudies";
+import Footer from "@/components/Footer";
 
 export default function page () {
   return (
     <main className="flex flex-col h-screen">
       <Home />
       <Services />
-      <Techonology />
+      <Technology />
+      <Client />
+      <CaseOne />
+      <CaseTwo/>
+      <Footer />
     </main>
   );
 }
