@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 html {
-  background-color: #273244;
+  background-color: #283345;
   scroll-behavior: smooth;
 }
 
 body {
   background-image: url("../assets/asset-background.jpg");
-  background-color: #273244;
+  background-color: #283345;
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
