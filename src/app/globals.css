@@ -15,12 +15,10 @@ body {
   background-size: contain;
 }
 
-section#clients {
-  > div {
-    overflow: hidden;
-    width: 100%;
-    margin-bottom: 9rem !important;
-  }
+section#clients div {
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 9rem !important;
 }
 
 main#not-found {
