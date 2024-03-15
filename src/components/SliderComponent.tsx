@@ -15,7 +15,7 @@ const SliderComponent = () => {
       toRight={false}
       pauseOnHover={false}
       blurBorders={true}
-      borderBlurColor={"#b2b2b2"}
+      blurBoderColor={'#ffffff'}
     >
       <Slider.Slide style={{ width: "300px", display: "flex", justifyContent: "center", alignItems: "center" }}>
         <svg width="151" height="36" viewBox="151 36" fill="none" xmlns="http://www.w3.org/2000/svg">

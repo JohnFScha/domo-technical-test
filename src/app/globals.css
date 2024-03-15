@@ -13,3 +13,10 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+section#clients {
+  > div {
+    overflow: hidden;
+    width: 100%;
+  }
+}
