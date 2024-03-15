@@ -19,7 +19,7 @@ section#clients {
   > div {
     overflow: hidden;
     width: 100%;
-    padding-bottom: 9rem !important;
+    margin-bottom: 9rem !important;
   }
 }
 

@@ -3,7 +3,7 @@ import phone from '../assets/smarthphone.png'
 
 function CaseOne() {
   return (
-      <article className="card w-[35%] bg-[#3871FF] text-white absolute top-[281%] left-[10%] rounded-none p-5">
+      <article className="card w-[35%] bg-[#3871FF] text-white absolute FHD:top-[271%] HD-1:top-[295%] left-[10%] rounded-none p-5">
         <div className="card-body gap-5">
           <h2 className="card-title text-3xl">Get in touch with us</h2>
           <p className="w-[50%]">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -17,20 +17,21 @@ function CaseOne() {
 
 function CaseTwo() {
   return (
-      <article className="card w-[35%] bg-[#3871FF] text-white absolute top-[281%] right-[10%] rounded-none grid grid-cols-2">
-        <div className="card-body gap-6 p-12">
+      <article className="card w-[35%] bg-[#3871FF] text-white absolute FHD:top-[271%] HD-1:top-[295%] right-[10%] rounded-none grid grid-cols-3 IOS:h-[33%] FHD:h-auto">
+        <div className="card-body gap-6 p-12 col-span-2">
           <h2 className="card-title text-3xl">Our projects</h2>
           <p className="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
           <div className="card-actions justify-start">
             <button className="btn btn-outline rounded-none border-white text-white">Hire us</button>
           </div>
         </div>
-        <div className="h-[276px] overflow-hidden">
+        <div className="FHD:h-[271px] FHD:overflow-hidden">
           <Image
             src={phone}
             alt="Iphone"
             width={500}
             height={500}
+            className="HD-1:h-full HD-1:object-none IOS:object-cover FHD:object-cover"
           />
         </div>
       </article>

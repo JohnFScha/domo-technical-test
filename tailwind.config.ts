@@ -10,6 +10,15 @@ const config: Config = {
     extend: {},
     fontFamily: {
       "mont": ["Montserrat"]
+    },
+    screens: {
+      "WXGA-1": "1280px",
+      "HD-1": "1280px",
+      "SXGA": "1280px",
+      "WXGA-2": "1366px",
+      "IOS": "1440px",
+      "HD-2": "1600px",
+      "FHD": "1920px"
     }
   },
   plugins: [require('daisyui')],
