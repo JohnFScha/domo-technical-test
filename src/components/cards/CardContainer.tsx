@@ -1,3 +1,4 @@
+import Link from "next/link"
 import cards from "./Card"
 
 export default function CardContainer() {
@@ -11,7 +12,7 @@ export default function CardContainer() {
             <div className="flex flex-col items-center gap-5">
               <h2 className="font-semibold text-black text-lg">{data.title}</h2>
               <p className="text-center font-semibold leading-8">{data.text}</p>
-              <button className="btn btn-outline rounded none">Learn more</button>
+              <Link href={'/jobs'} className="btn btn-outline rounded none">Learn more</Link>
             </div>
           </div>))}
       </article>

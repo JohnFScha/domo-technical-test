@@ -1,5 +1,6 @@
 import Image from "next/image"
 import phone from '../assets/smarthphone.png'
+import Link from "next/link"
 
 function CaseOne() {
   return (
@@ -8,7 +9,7 @@ function CaseOne() {
           <h2 className="card-title text-3xl">Get in touch with us</h2>
           <p className="w-[50%]">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
           <div className="card-actions justify-start">
-            <button className="btn btn-outline rounded-none border-white text-white">Hire us</button>
+            <Link href={'/hire-us'} className="btn btn-outline rounded-none border-white text-white">Hire us</Link>
           </div>
         </div>
       </article>
@@ -22,7 +23,7 @@ function CaseTwo() {
           <h2 className="card-title text-3xl">Our projects</h2>
           <p className="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
           <div className="card-actions justify-start">
-            <button className="btn btn-outline rounded-none border-white text-white">Hire us</button>
+            <Link href={'/hire-us'} className="btn btn-outline rounded-none border-white text-white">Hire us</Link>
           </div>
         </div>
         <div className="FHD:h-[277px] overflow-hidden">
