@@ -25,13 +25,13 @@ function CaseTwo() {
             <button className="btn btn-outline rounded-none border-white text-white">Hire us</button>
           </div>
         </div>
-        <div className="FHD:h-[271px] FHD:overflow-hidden">
+        <div className="FHD:h-[277px] overflow-hidden">
           <Image
             src={phone}
             alt="Iphone"
             width={500}
             height={500}
-            className="HD-1:h-full HD-1:object-none IOS:object-cover FHD:object-cover"
+            className="HD-1:h-full object-cover relative bottom-[-60px]"
           />
         </div>
       </article>
