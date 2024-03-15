@@ -3,7 +3,7 @@ import phone from '../assets/smarthphone.png'
 
 function CaseOne() {
   return (
-      <article className="card w-[35%] bg-[#3871FF] text-white absolute top-[300%] left-[10%] rounded-none p-5">
+      <article className="card w-[35%] bg-[#3871FF] text-white absolute top-[281%] left-[10%] rounded-none p-5">
         <div className="card-body gap-5">
           <h2 className="card-title text-3xl">Get in touch with us</h2>
           <p className="w-[50%]">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -17,7 +17,7 @@ function CaseOne() {
 
 function CaseTwo() {
   return (
-      <article className="card w-[35%] bg-[#3871FF] text-white absolute top-[300%] right-[10%] rounded-none grid grid-cols-2">
+      <article className="card w-[35%] bg-[#3871FF] text-white absolute top-[281%] right-[10%] rounded-none grid grid-cols-2">
         <div className="card-body gap-6 p-12">
           <h2 className="card-title text-3xl">Our projects</h2>
           <p className="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
