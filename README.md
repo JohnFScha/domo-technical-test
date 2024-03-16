@@ -1,13 +1,10 @@
 # DOMO Technical Test
+Maqueta de landing page para _complete labs_ con diseño de SPA (Single Page Aplication). Desarrollada como prueba técnica para [DOMO](https://www.domo.com.ar/) para el puesto de Desarrollador Front-end.
 
 ## Indice
-1. [Presentación](#presentacion)
-2. [Teconologías utilizadas](#tecnologias)
-3. [Navegación](#navegacion)
-4. [Guia de implementación](#implementacion)
-
-## [Presentacion](#presentacion)
-Maqueta de landing page para _complete labs_ con diseño de SPA (Single Page Aplication). Desarrollada como prueba técnica para [DOMO](https://www.domo.com.ar/) para el puesto de Desarrollador Front-end.
+1. [Teconologías utilizadas](#tecnologias)
+2. [Navegación](#navegacion)
+3. [Guia de implementación](#implementacion)
 
 ## [Tecnologías utilizadas](#tecnologías)
 La pagína fue diseñada con las siguientes tecnologías:
