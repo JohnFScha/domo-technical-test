@@ -6,7 +6,7 @@ Maqueta de landing page para _complete labs_ con diseño de SPA (Single Page Apl
 2. [Navegación](#navegacion)
 3. [Guia de implementación](#implementacion)
 
-## [Tecnologías utilizadas](#tecnologías)
+## [Tecnologías utilizadas](#tecnologias)
 La pagína fue diseñada con las siguientes tecnologías:
 
 - [Next.js](https://nextjs.org/): Framework Fullstack de [React.js](https://react.dev), mediante el cual el desarrollador tiene acceso al SSR (Server Side Rendering). Con ésta técnica se logra renderizar la página en el servidor, y enviarla al cliente pre-renderizada. Esto permite:
@@ -38,7 +38,7 @@ En éste ejemplo el elemento `<main>` obtiene las propiedades `min-height: 100vh
 ```
 En éste ejemplo, la clase `btn` provee al elemento `<button>` de un conjunto de propiedades de CSS que lo enriquecen y le dan interactividad.
 
-## [Navegación](#navegación)
+## [Navegación](#navegacion)
 La página presenta un diseño SPA, lo que permite que las diversas secciones se monten y desmonten del archivo HTML mediante el enrutador. En éste caso Next.js implementa un enrutador propio, basado en la estructura de carpetas del proyecto:
 ```
 └── /app/
