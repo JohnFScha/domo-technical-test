@@ -19,10 +19,10 @@ export default function Footer() {
       </aside>
       <nav>
         <h6 className="text-white">SITEMAP</h6>
-        <Link href={'#home'} scroll={false} prefetch={false} className="link link-hover">Home</Link>
-        <Link href={'#technology'} scroll={false} prefetch={false} className="link link-hover">Technology</Link>
-        <Link href={'#services'} scroll={false} prefetch={false} className="link link-hover">Services</Link>
-        <Link href={'#about'} scroll={false} prefetch={false} className="link link-hover">About</Link>
+        <Link href={'#home'} scroll={false} replace={true} prefetch={false} className="link link-hover">Home</Link>
+        <Link href={'#technology'} scroll={false} replace={true} prefetch={false} className="link link-hover">Technology</Link>
+        <Link href={'#services'} scroll={false} replace={true} prefetch={false} className="link link-hover">Services</Link>
+        <Link href={'#about'} scroll={false} replace={true} prefetch={false} className="link link-hover">About</Link>
       </nav>
       <nav>
         <h6 className="text-white">CASE STUDIES</h6>
